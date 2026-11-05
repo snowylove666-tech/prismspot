@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PrismSpot 搜的快 隐私政策</title>
+<link rel="icon" href="icon.svg">
+<style>
+:root{--bg:#f6f3ec;--card:#fffdf8;--ink:#1d1b17;--muted:#6f685c;--line:#e3ddd0;--accent:#e0482a}
+@media (prefers-color-scheme:dark){:root{--bg:#171613;--card:#1f1d19;--ink:#ece6da;--muted:#a39b8c;--line:#34302a;--accent:#f0663f}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.75}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+header img{width:48px;height:48px}
+h1{font-size:24px;margin:0}
+h2{font-size:18px;margin:32px 0 8px}
+.date{color:var(--muted);font-size:14px;margin:0 0 24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 24px;margin:16px 0}
+strong{color:var(--accent)}
+ul{padding-left:22px}
+a{color:var(--accent)}
+hr{border:none;border-top:1px solid var(--line);margin:40px 0}
+</style>
+</head>
+<body><main>
+<header><img src="icon.svg" alt=""><h1>PrismSpot 搜的快 隐私政策</h1></header>
+<p class="date">更新日期：2026 年 11 月 5 日</p>
+
+<div class="card">PrismSpot 搜的快是一个在你自己电脑上运行的文件搜索工具。<strong>它不收集、不上传、不出售你的任何文件或个人数据。</strong></div>
+
+<h2>读取哪些内容</h2>
+<ul>
+<li>为了让你能搜到文件，PrismSpot 会读取你在设置里选择的搜索位置中的文件名、文件夹、修改时间、大小，以及部分文件（PDF、Word、Excel、PPT、文本等）的正文。</li>
+<li>这些内容只保存在你电脑上的索引文件里（位置可以在「设置 → 索引」中查看和更改）。</li>
+<li>预览 Word / PowerPoint 时，如果电脑装有 Microsoft Office，会用 Office 在本机生成预览页面，同样只保存在你的电脑上。</li>
+</ul>
+
+<h2>网络</h2>
+<ul>
+<li>PrismSpot 不会把你的文件、搜索内容或索引发送到任何服务器，也没有统计、遥测或广告。</li>
+<li>唯一的联网操作是通过 Microsoft Store 查询和购买会员：由 Windows 和 Microsoft Store 完成，适用 <a href="https://privacy.microsoft.com/">Microsoft 隐私声明</a>。我们看不到你的付款信息。</li>
+</ul>
+
+<h2>AI 接入（MCP，会员功能）</h2>
+<ul>
+<li>如果你开启并配置了 AI 助手（例如 Claude、Cursor、VS Code），这些 AI 助手可以通过 PrismSpot 查找和读取你已索引的文件。</li>
+<li>读取的内容会交给<strong>你自己选择的</strong> AI 助手，之后如何处理，以该 AI 助手的隐私政策为准。</li>
+<li>这一功能可以随时在「设置 → AI 接入」里关闭。「一键配置」只会在这些 AI 助手的配置文件里添加或删除 prismspot 这一项，修改前会备份原文件。</li>
+</ul>
+
+<h2>删除数据</h2>
+<ul>
+<li>删除索引文件夹和 <code>%AppData%\SpotlightWin</code> 文件夹，即可删除 PrismSpot 保存的全部数据。</li>
+<li>从 Microsoft Store 卸载后，索引文件夹不会自动删除，可以手动删掉。你的文档本身始终不受影响。</li>
+</ul>
+
+<h2>联系我们</h2>
+<p>有问题或建议，请在 <a href="https://github.com/snowylove666-tech/prismspot/issues">这里提交反馈</a>。</p>
+
+<hr>
+
+<h1 style="font-size:20px">Privacy Policy (English)</h1>
+<p>PrismSpot runs entirely on your PC and does not collect, upload or sell your files or personal data. To make files searchable, it reads file names, folders, sizes, dates and the text of supported documents in the locations you choose, and stores them in an index on your PC. Its only network activity is checking and buying membership through the Microsoft Store, handled by Windows under the <a href="https://privacy.microsoft.com/">Microsoft Privacy Statement</a>. If you turn on the AI connection (MCP, a member feature), the AI apps you configure can search and read your indexed files; what they do with that content is governed by their own privacy policies, and you can turn it off at any time. Deleting the index folder and %AppData%\SpotlightWin removes all data the app stored. Contact: <a href="https://github.com/snowylove666-tech/prismspot/issues">feedback</a>.</p>
+</main></body>
+</html>
